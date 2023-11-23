@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		121236682B0CBDDD00F2F786 /* WeSplitWatchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121236672B0CBDDD00F2F786 /* WeSplitWatchOSApp.swift */; };
+		1212366A2B0CBDDD00F2F786 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121236692B0CBDDD00F2F786 /* MainView.swift */; };
+		1212366C2B0CBDDE00F2F786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1212366B2B0CBDDE00F2F786 /* Assets.xcassets */; };
+		1212366F2B0CBDDE00F2F786 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1212366E2B0CBDDE00F2F786 /* Preview Assets.xcassets */; };
+		121236722B0CBDDE00F2F786 /* WeSplitWatchOS Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 121236652B0CBDDD00F2F786 /* WeSplitWatchOS Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		12DBDA5E2B0B6AAC0095CC93 /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DBDA5D2B0B6AAC0095CC93 /* WeSplitApp.swift */; };
+		12DBDA602B0B6AAC0095CC93 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DBDA5F2B0B6AAC0095CC93 /* MainView.swift */; };
+		12DBDA622B0B6AAD0095CC93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12DBDA612B0B6AAD0095CC93 /* Assets.xcassets */; };
+		12DBDA652B0B6AAD0095CC93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12DBDA642B0B6AAD0095CC93 /* Preview Assets.xcassets */; };
+		12DEE7C22B0E33E70047C4C3 /* AmountInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DEE7C12B0E33E70047C4C3 /* AmountInputView.swift */; };
+		12DEE7C42B0E584D0047C4C3 /* CustomInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DEE7C32B0E584D0047C4C3 /* CustomInputField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		121236702B0CBDDE00F2F786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12DBDA522B0B6AAB0095CC93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 121236642B0CBDDD00F2F786;
+			remoteInfo = "WeSplitWatchOS Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		121236732B0CBDDE00F2F786 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				121236722B0CBDDE00F2F786 /* WeSplitWatchOS Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		121236652B0CBDDD00F2F786 /* WeSplitWatchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeSplitWatchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		121236672B0CBDDD00F2F786 /* WeSplitWatchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitWatchOSApp.swift; sourceTree = "<group>"; };
+		121236692B0CBDDD00F2F786 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1212366B2B0CBDDE00F2F786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1212366E2B0CBDDE00F2F786 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12DBDA5A2B0B6AAC0095CC93 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12DBDA5D2B0B6AAC0095CC93 /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
+		12DBDA5F2B0B6AAC0095CC93 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		12DBDA612B0B6AAD0095CC93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12DBDA642B0B6AAD0095CC93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12DEE7C12B0E33E70047C4C3 /* AmountInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountInputView.swift; sourceTree = "<group>"; };
+		12DEE7C32B0E584D0047C4C3 /* CustomInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		121236622B0CBDDD00F2F786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12DBDA572B0B6AAC0095CC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		121236662B0CBDDD00F2F786 /* WeSplitWatchOS Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				121236672B0CBDDD00F2F786 /* WeSplitWatchOSApp.swift */,
+				121236772B0CC35E00F2F786 /* View */,
+				1212366B2B0CBDDE00F2F786 /* Assets.xcassets */,
+				1212366D2B0CBDDE00F2F786 /* Preview Content */,
+			);
+			path = "WeSplitWatchOS Watch App";
+			sourceTree = "<group>";
+		};
+		1212366D2B0CBDDE00F2F786 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1212366E2B0CBDDE00F2F786 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		121236772B0CC35E00F2F786 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				121236692B0CBDDD00F2F786 /* MainView.swift */,
+				12DEE7C12B0E33E70047C4C3 /* AmountInputView.swift */,
+				12DEE7C32B0E584D0047C4C3 /* CustomInputField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12A7E9F52B0B8038007A12C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12DBDA5F2B0B6AAC0095CC93 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12DBDA512B0B6AAB0095CC93 = {
+			isa = PBXGroup;
+			children = (
+				12DBDA5C2B0B6AAC0095CC93 /* WeSplit */,
+				121236662B0CBDDD00F2F786 /* WeSplitWatchOS Watch App */,
+				12DBDA5B2B0B6AAC0095CC93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12DBDA5B2B0B6AAC0095CC93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12DBDA5A2B0B6AAC0095CC93 /* WeSplit.app */,
+				121236652B0CBDDD00F2F786 /* WeSplitWatchOS Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12DBDA5C2B0B6AAC0095CC93 /* WeSplit */ = {
+			isa = PBXGroup;
+			children = (
+				12DBDA5D2B0B6AAC0095CC93 /* WeSplitApp.swift */,
+				12A7E9F52B0B8038007A12C3 /* View */,
+				12DBDA612B0B6AAD0095CC93 /* Assets.xcassets */,
+				12DBDA632B0B6AAD0095CC93 /* Preview Content */,
+			);
+			path = WeSplit;
+			sourceTree = "<group>";
+		};
+		12DBDA632B0B6AAD0095CC93 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				12DBDA642B0B6AAD0095CC93 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		121236642B0CBDDD00F2F786 /* WeSplitWatchOS Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 121236762B0CBDDE00F2F786 /* Build configuration list for PBXNativeTarget "WeSplitWatchOS Watch App" */;
+			buildPhases = (
+				121236612B0CBDDD00F2F786 /* Sources */,
+				121236622B0CBDDD00F2F786 /* Frameworks */,
+				121236632B0CBDDD00F2F786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WeSplitWatchOS Watch App";
+			productName = "WeSplitWatchOS Watch App";
+			productReference = 121236652B0CBDDD00F2F786 /* WeSplitWatchOS Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12DBDA592B0B6AAC0095CC93 /* WeSplit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12DBDA682B0B6AAD0095CC93 /* Build configuration list for PBXNativeTarget "WeSplit" */;
+			buildPhases = (
+				12DBDA562B0B6AAC0095CC93 /* Sources */,
+				12DBDA572B0B6AAC0095CC93 /* Frameworks */,
+				12DBDA582B0B6AAC0095CC93 /* Resources */,
+				121236732B0CBDDE00F2F786 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				121236712B0CBDDE00F2F786 /* PBXTargetDependency */,
+			);
+			name = WeSplit;
+			productName = WeSplit;
+			productReference = 12DBDA5A2B0B6AAC0095CC93 /* WeSplit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12DBDA522B0B6AAB0095CC93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					121236642B0CBDDD00F2F786 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					12DBDA592B0B6AAC0095CC93 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 12DBDA552B0B6AAB0095CC93 /* Build configuration list for PBXProject "WeSplit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12DBDA512B0B6AAB0095CC93;
+			productRefGroup = 12DBDA5B2B0B6AAC0095CC93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12DBDA592B0B6AAC0095CC93 /* WeSplit */,
+				121236642B0CBDDD00F2F786 /* WeSplitWatchOS Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		121236632B0CBDDD00F2F786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1212366F2B0CBDDE00F2F786 /* Preview Assets.xcassets in Resources */,
+				1212366C2B0CBDDE00F2F786 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12DBDA582B0B6AAC0095CC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12DBDA652B0B6AAD0095CC93 /* Preview Assets.xcassets in Resources */,
+				12DBDA622B0B6AAD0095CC93 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		121236612B0CBDDD00F2F786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12DEE7C42B0E584D0047C4C3 /* CustomInputField.swift in Sources */,
+				12DEE7C22B0E33E70047C4C3 /* AmountInputView.swift in Sources */,
+				1212366A2B0CBDDD00F2F786 /* MainView.swift in Sources */,
+				121236682B0CBDDD00F2F786 /* WeSplitWatchOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12DBDA562B0B6AAC0095CC93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12DBDA602B0B6AAC0095CC93 /* MainView.swift in Sources */,
+				12DBDA5E2B0B6AAC0095CC93 /* WeSplitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		121236712B0CBDDE00F2F786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 121236642B0CBDDD00F2F786 /* WeSplitWatchOS Watch App */;
+			targetProxy = 121236702B0CBDDE00F2F786 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		121236742B0CBDDE00F2F786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplitWatchOS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = JKVW4Y7PD6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WeSplitWatchOS;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = de.comsysto.WeSplit;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.comsysto.WeSplit.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		121236752B0CBDDE00F2F786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplitWatchOS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = JKVW4Y7PD6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WeSplitWatchOS;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = de.comsysto.WeSplit;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.comsysto.WeSplit.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		12DBDA662B0B6AAD0095CC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12DBDA672B0B6AAD0095CC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12DBDA692B0B6AAD0095CC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				DEVELOPMENT_TEAM = JKVW4Y7PD6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.comsysto.WeSplit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12DBDA6A2B0B6AAD0095CC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				DEVELOPMENT_TEAM = JKVW4Y7PD6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.comsysto.WeSplit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		121236762B0CBDDE00F2F786 /* Build configuration list for PBXNativeTarget "WeSplitWatchOS Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121236742B0CBDDE00F2F786 /* Debug */,
+				121236752B0CBDDE00F2F786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12DBDA552B0B6AAB0095CC93 /* Build configuration list for PBXProject "WeSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12DBDA662B0B6AAD0095CC93 /* Debug */,
+				12DBDA672B0B6AAD0095CC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12DBDA682B0B6AAD0095CC93 /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12DBDA692B0B6AAD0095CC93 /* Debug */,
+				12DBDA6A2B0B6AAD0095CC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12DBDA522B0B6AAB0095CC93 /* Project object */;
+}
